@@ -24,7 +24,9 @@ import com.google.gson.Gson;
  */
 @Path("service")  // By altering the argument, you'll change the service's URL
 public class WebService {
-	
+
+int a=10
+	float c=a/0;
 	/**
 	 * Prints "It's working" when /wwp-1.0.0/webapi/service is accessed.
 	 * 
