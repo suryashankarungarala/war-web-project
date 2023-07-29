@@ -98,6 +98,36 @@ public class MrBean implements Serializable {
 	public String getCarBrand() {
 		return carBrand;
 	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
+		public String getCarBrand() {
+		return carBrand;
+	}
 
 	/**
 	 * Gives the bean a new car brand.
