@@ -28,7 +28,7 @@ public class mrBean implements Serializable {
 	 * bean must expose a constructor that doesn't take any arguments. Its
 	 * attributes will be set by Gson upon object creation.
 	 */
-	public mrBean {
+	public mrBean() {
 		// Let's just give the class members some standard values
 		name = "Rowan Atkinson";
 		age = 60;
