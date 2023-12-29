@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 
  * @author Johan Holmberg
  */
-public class MrBean implements Serializable {
+public class mrBean implements Serializable {
 	/**
 	 * Being a serializable class, the bean needs a unique identification
 	 * number in order for the Java system to recreate saved objects.
@@ -28,7 +28,7 @@ public class MrBean implements Serializable {
 	 * bean must expose a constructor that doesn't take any arguments. Its
 	 * attributes will be set by Gson upon object creation.
 	 */
-	public MrBean() {
+	public mrBean {
 		// Let's just give the class members some standard values
 		name = "Rowan Atkinson";
 		age = 60;
