@@ -9,132 +9,50 @@ import java.io.Serializable;
  * 
  * @author Johan Holmberg
  */
-public class mrBean implements Serializable {
-	/**
-	 * Being a serializable class, the bean needs a unique identification
-	 * number in order for the Java system to recreate saved objects.
-	 */
-	private static final long serialVersionUID = -3168349974480377280L;
-	
-	private String name;
-	private int age;
-	private String nationality;
-	private String carBrand;
-	
-	/**
-	 * Empty constructor.
-	 * 
-	 * Gson uses reflection to construct beans. In order to be able to do so, a
-	 * bean must expose a constructor that doesn't take any arguments. Its
-	 * attributes will be set by Gson upon object creation.
-	 */
-	public mrBean() {
-		// Let's just give the class members some standard values
-		name = "Rowan Atkinson";
-		age = 60;
-		nationality = "British";
-		carBrand = "Leyland Mini";
-	}
+public class MrBean implements Serializable {
+    private static final long serialVersionUID = -3168349974480377280L;
 
-	/**
-	 * Returns the name of the bean.
-	 * 
-	 * @return The name.
-	 */
-	public String getName() {
-		return name;
-	}
+    private String name;
+    private int age;
+    private String nationality;
+    private String carBrand;
 
-	/**
-	 * Gives the bean a new name.
-	 * 
-	 * @param name The new name.
-	 */
-	public void setName(String name) {
-		this.name = name;
-	}
+    public MrBean() {
+        name = "Rowan Atkinson";
+        age = 60;
+        nationality = "British";
+        carBrand = "Leyland Mini";
+    }
 
-	/**
-	 * Returns the age of the bean.
-	 * 
-	 * @return The age.
-	 */
-	public int getAge() {
-		return age;
-	}
+    public String getName() {
+        return name;
+    }
 
-	/**
-	 * Gives the bean a new age.
-	 * 
-	 * @param age The new age.
-	 */
-	public void setAge(int age) {
-		this.age = age;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	/**
-	 * Returns the nationality of the bean.
-	 * 
-	 * @return The nationality.
-	 */
-	public String getNationality() {
-		return nationality;
-	}
+    public int getAge() {
+        return age;
+    }
 
-	/**
-	 * Gives the bean a new nationality.
-	 * 
-	 * @param nationality The new nationality.
-	 */
-	public void setNationality(String nationality) {
-		this.nationality = nationality;
-	}
+    public void setAge(int age) {
+        this.age = age;
+    }
 
-	/**
-	 * Returns the car brand of the bean.
-	 * 
-	 * @return The car brand.
-	 */
-	public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
-		public String getCarBrand() {
-		return carBrand;
-	}
+    public String getNationality() {
+        return nationality;
+    }
 
-	/**
-	 * Gives the bean a new car brand.
-	 * 
-	 * @param carBrand The new car brand.
-	 */
-	public void setCarBrand(String carBrand) {
-		this.carBrand = carBrand;
-	}
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public String getCarBrand() {
+        return carBrand;
+    }
+
+    public void setCarBrand(String carBrand) {
+        this.carBrand = carBrand;
+    }
 }
